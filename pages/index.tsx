@@ -104,4 +104,4 @@ export default function Index({
   )
 }
 
-Index.Layout = Layout
+//Index.Layout = Layout
