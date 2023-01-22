@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import map from '../public/map.svg'
-//import { Layout } from '@vercel/examples-ui'
+import { Layout } from '@vercel/examples-ui'
 
 // Forward properties from `middleware.ts`
 // When support for configuring gSSP to use Edge Functions lands,
@@ -104,4 +104,4 @@ export default function Index({
   )
 }
 
-//Index.Layout = Layout
+Index.Layout = Layout
