@@ -2,7 +2,7 @@ const { join } = require('path')
 const { writeFile } = require('fs/promises')
 
 const JSON_URL =
-  'https://raw.githubusercontent.com/mledoze/countries/master/dist/countries.json'
+  'https://raw.githubusercontentS.com/mledoze/countries/master/dist/countries.json'
 
 async function setupCountryInfo() {
   const req = await fetch(JSON_URL)
